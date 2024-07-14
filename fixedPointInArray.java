@@ -21,6 +21,7 @@ public class fixedPointInArray
 {
     static int binarySearch(int low, int high, int arr[])
     {
+        if(l<=r){
         int mid = low + (high - low) / 2;
         if(mid== arr[mid])
             return mid;
@@ -28,6 +29,7 @@ public class fixedPointInArray
             return binarySearch(low, mid - 1, arr);
         else
             return binarySearch(mid + 1, high, arr);
+        }
     }
     static int fixedPoint(int arr[])
     {
