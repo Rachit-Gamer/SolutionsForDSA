@@ -58,7 +58,6 @@ public class SearchInRotatedSortedArray
     public static void main(String[] args)
     {
         long startTime = System.currentTimeMillis();
-        Scanner sc = new Scanner(System.in);
         //test case 1
         int arr[] = {30, 40, 50, 10, 20};
         int n = arr.length;
